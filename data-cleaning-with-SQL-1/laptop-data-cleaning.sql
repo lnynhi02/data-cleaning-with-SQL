@@ -1,5 +1,5 @@
 -- 1.Remove duplicates
-Create the table from the original data
+-- Create the table from the original data
 CREATE TABLE laptop_data.laptop_cleaning AS
 	SELECT * FROM laptop_data.laptops;
 
