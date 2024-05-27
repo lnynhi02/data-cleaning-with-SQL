@@ -1,6 +1,8 @@
 -- 1.Remove duplicates
--- Create the table from the original data
-CREATE TABLE laptop_data.laptop_cleaning AS
+
+-- I have created the schema laptop_data, the table laptops from 'laptopData.csv'
+-- The laptops table is the original data
+CREATE TABLE laptop_data.laptops_cleaning AS
 	SELECT * FROM laptop_data.laptops;
 
 CREATE TABLE laptop_data.cleaning (
